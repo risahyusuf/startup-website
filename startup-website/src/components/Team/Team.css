@@ -1,0 +1,14 @@
+.team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-members img {
+    width: 85%;
+}
+
+.team a {
+    margin-top: 20px;
+}

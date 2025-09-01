@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: solid 1px red;
+    font-family: "work-sans", "sans-serif";
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+h1,h2, p {
+    margin: 0 10px;
+}
+
+h2 {
+    padding: 10px 0;
+    font-size: 23px;
+}
+
+h1, p {
+        font-size: 17px;
+}
+
+.images {
+     padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.socials h2, .socials p,
+.talents h2, .talents p {
+     color: #000000;
+     text-align: center;
+     font-size: 20px;
+}
+
+.socials h1, .talents h1 {
+     text-align: center;
+     color: #74C69D;
+}
+
+.socials p, .talents p {
+    text-align: center;
+    font-size: 20px; 
+}
+
+.linebreak {
+     display: inline-block;
+     margin-top: 8px;
+     margin-bottom: 50px;
+}
+
+.socials a, .team a {
+     color: #FFFFFF;
+    background-color: #000000;
+    margin: 50px auto;
+}

@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header {
+    padding-bottom: 30px;
+    max-height: 642px;
+    background: #74C69D;
+    margin-bottom: 20px;
+}
+
+h1,h2, p {
+    color:#FFFFFF;
+}
+
+.hero-section a {
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 20px;
+}
