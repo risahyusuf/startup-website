@@ -5,7 +5,6 @@ import Frame2 from "./Frame2/Frame2"
 import Talents from "./Talents/Talents"
 import Team from "./Team/Team"
 import Footer from "./Footer/Footer"
-import PortfolioHeader from "./PortfolioHeader/PortfolioHeader"
-import PortfolioBody from "./PortfolioBody/PortfolioBody"
+import Portfolio from "./Portfolio/Portfolio"
 
-export { Header, Socials, Frame1, Frame2, Talents, Team, Footer, PortfolioHeader, PortfolioBody }
+export { Header, Socials, Frame1, Frame2, Talents, Team, Footer, Portfolio }
