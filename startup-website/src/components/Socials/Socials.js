@@ -9,10 +9,12 @@ import spotify from "../../assets/spotify.png"
 const Socials = () => {
   return (
     <section className="socials">
+      <div className="socials-text">
       <h1>P A R T N E R S</h1>
       <h2>Lorem Ipsum Dolor</h2>
       <p>Lorem ipsum, dolor sit amet consectetur<br />
          <span className="linebreak">adipisicing elit.</span></p>
+         </div>
          <div className="handles">
           <img src={google} alt="google" className="google"></img>
           <img src={microsoft} alt="microsoft" className="microsoft"></img>

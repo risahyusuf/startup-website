@@ -14,7 +14,7 @@ const Team = () => {
          <img src={alexandra} alt="designer"></img>
           <img src={janet} alt="developer"></img>
           </div>
-        <a href="#Learn More" className="learnmore-btn">Learn More</a>   
+        <a href="#View Team" className="learnmore-btn">View Team</a> 
     </section>
   )
 }

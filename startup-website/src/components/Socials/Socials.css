@@ -4,3 +4,18 @@
     gap: 30px;
     align-items: center;
 }
+
+@media (min-width: 1024px) {
+    .socials {
+        padding-bottom: 20px;
+    }
+    .socials-text {
+            margin-top: 60px;
+    }
+    .handles {
+        display: flex;
+    flex-direction: row;
+        margin-left: 200px;
+    gap: 50px;
+}
+}

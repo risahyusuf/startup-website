@@ -71,3 +71,13 @@ h1, p {
     background-color: #000000;
     margin: 50px auto;
 }
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 1024px) {
+  h1, h2, p {
+    font-size: 25px;
+  }
+}

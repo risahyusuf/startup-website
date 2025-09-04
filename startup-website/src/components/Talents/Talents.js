@@ -7,7 +7,7 @@ const Talents = () => {
       <h1>T E A M</h1>
       <h2>Our Talents</h2>
       <p>Lorem ipsum, dolor sit amet consectetur<br />
-         <span className="linebreak">adipisicing elit.</span></p>
+         <span className="linebreak">Suscipit nemo hic quos, ab,</span></p>
     </section>
   )
 }

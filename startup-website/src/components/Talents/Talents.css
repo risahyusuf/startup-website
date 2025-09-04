@@ -1,3 +1,9 @@
 .talents {
     margin-top: 30px;
 }
+
+@media (min-width) {
+    .talents {
+            margin-top: 50px;
+    }
+}
