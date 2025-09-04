@@ -4,7 +4,7 @@
 
 .portfolioimages {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr;
     gap: 40px;
     padding: 40px
 }
@@ -12,4 +12,12 @@
 .portfolioimages img {
     width: 100%;
     cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .portfolioimages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px;
+    }
 }
