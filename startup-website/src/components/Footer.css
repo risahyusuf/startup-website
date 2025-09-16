@@ -5,11 +5,18 @@
     align-items: center;
     gap: 10px;
     padding: 20px;
-    margin-bottom: 30px;
 }
 
 .Footer img {
     max-width: 100%;
+}
+@media (min-width: 768px) {
+ .Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0;
+    }
 }
 
 @media (min-width: 1440px) {
