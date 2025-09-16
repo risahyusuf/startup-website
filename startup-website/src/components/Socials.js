@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Socials.css"
-import google from "../../assets/google.png"
-import microsoft from "../../assets/microsoft.png"
-import airbnb from "../../assets/airbnb.png"
-import facebook from "../../assets/facebook.png"
-import spotify from "../../assets/spotify.png"
+import google from "../assets/google.png"
+import microsoft from "../assets/microsoft.png"
+import airbnb from "../assets/airbnb.png"
+import facebook from "../assets/facebook.png"
+import spotify from "../assets/spotify.png"
 
 const Socials = () => {
   return (

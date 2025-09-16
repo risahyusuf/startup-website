@@ -13,13 +13,37 @@
     margin-top: 20px;
 }
 
+@media (min-width: 768px) {
+.team-members {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 100px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+  .team a {
+        margin-top: 30px;
+    }
+}
+
 @media (min-width: 1024px) {
+.team-members {
+    width: 450px;
+}
+}
+
+@media (min-width: 1440px) {
     .team-members {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
     padding: 0 100px;
+    margin: 0 auto;
+    width: 500px;
     }
 
     .team a {

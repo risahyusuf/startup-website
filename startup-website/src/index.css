@@ -10,7 +10,9 @@ body {
     border: solid 1px red;
     font-family: "work-sans", "sans-serif";
 }
-
+nav, Header {
+    background: #74C69D;
+}
 a {
     text-decoration: none;
     width: fit-content;
@@ -76,8 +78,8 @@ h1, p {
     
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   h1, h2, p {
-    font-size: 25px;
+    font-size: 25px
   }
 }

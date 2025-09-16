@@ -1,21 +1,11 @@
 import React from 'react'
 import "./Header.css"
-import start from "../../assets/start.png"
-import menu from "../../assets/menu.png"
-import heroimage from "../../assets/heroimage.png"
+import heroimage from "../assets/heroimage.png"
 
 const Header = () => {
- // const [isOpen, setIsOpen] = useState(false);
-//const toggleMenu = () => {
-  //setIsOpen(!isOpen)
-//}
+
   return (
     <header>
-      <div className="wrapper">
-      <img src={start} alt="logo" className="logo"></img>
-      <img src={menu} alt="menu" className="menu"></img>
-      </div>
-  
 <div className="hero-section">
   <div className="hero-text">
       <h1>W E L C O M E</h1>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css"
-import footersocials from "../../assets/footer socials.png"
-import copyright from "../../assets/copyright.png"
+import footersocials from "../assets/footer socials.png"
+import copyright from "../assets/copyright.png"
 
 const Footer = () => {
   return (

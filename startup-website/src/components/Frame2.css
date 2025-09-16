@@ -1,0 +1,79 @@
+.frame-2 .images {
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+.frame-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   padding: 0 50px;
+   }
+
+   .images {
+    width: 400px;
+   }
+
+   .frame2-text {
+    margin-left: 15px;
+   }
+
+   .frame2-text p {
+    font-size: 15px;
+    width: 350px;
+}
+
+.frame2-text h2 {
+    width: 250px;
+    margin-top: 150px;
+}
+
+.frame2-text a {
+        margin-top: 30px;
+}
+}
+
+@media (min-width: 1024px) {
+ .Frame-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+   padding: 0 50px;
+    }
+
+    .images {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .frame-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.images {
+    width: 600px;
+}
+    .frame2-text {
+        margin-top: 150px;
+}
+
+.frame2-text p {
+    font-size: 22px;
+}
+
+.frame2-text h2 {
+        max-width: 350px;
+    font-size: 35px;
+}
+
+.frame2-text a {
+        margin-top: 30px;
+}
+}

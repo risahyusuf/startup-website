@@ -1,19 +1,22 @@
-import React from 'react'
-import { Header, Socials, Frame1, Frame2, Talents, Team, Footer, Portfolio } from "./components"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar"
+import Home from "./Pages/Home"
+import Portfolio from "./Pages/Portfolio"
+import Services from "./Pages/Services"
+import Contact from "./Pages/Contact"
 
-const App = () => {
-  return (
-    <div>
-    <Header />
-    <Socials />
-    <Frame1 />
-    <Frame2 />
-    <Talents />
-    <Team />
-   <Footer />
-   <Portfolio />
-  </div>
-  )
+function App() {
+  return(
+    <Router>
+      <Navbar /> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

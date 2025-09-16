@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Team.css"
-import peg from "../../assets/peg.png"
-import richard from "../../assets/richard.png"
-import alexandra from "../../assets/alexandra.png"
-import janet from "../../assets/janet.png"
+import peg from "../assets/peg.png"
+import richard from "../assets/richard.png"
+import alexandra from "../assets/alexandra.png"
+import janet from "../assets/janet.png"
 
 const Team = () => {
   return (
