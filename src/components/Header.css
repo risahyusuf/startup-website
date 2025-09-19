@@ -5,6 +5,10 @@ header {
     margin-bottom: 20px;
 }
 
+.hero-section {
+    margin-top: -2px;
+}
+
 .hero-text, 
 .hero-text h2, 
 .hero-text p {
@@ -22,6 +26,7 @@ header {
     .hero-section {
         display: flex;
         flex-direction: row;
+        margin-top: -10px;
     }
 
 .hero-text {

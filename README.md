@@ -69,4 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Live Demo
 Checkout the live demo of the project:
-[Live Demo]()
+[Live Demo](https://startup-website-pzay.onrender.com)
+
+## Loom Video
+Watch Videp [here](https://www.loom.com/share/722e74225ed743fbb103770200aa7e3f?sid=099ce09c-cd01-42ce-8ea2-b2ed510c7a38)
