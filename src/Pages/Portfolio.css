@@ -1,0 +1,35 @@
+.portfolio {
+margin-top: 30px;
+}
+
+.portfolioheader {
+    margin-bottom: -50px;
+}
+
+.portfolioimages {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px
+}
+
+.portfolioimages img {
+    width: 100%;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+ .portfolioimages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .portfolioimages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px;
+    }
+}

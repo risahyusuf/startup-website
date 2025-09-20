@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "work-sans", "sans-serif";
+}
+nav, Header {
+    background: #74C69D;
+}
+a {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+h1,h2, p {
+    margin: 0 10px;
+}
+
+h2 {
+    padding: 10px 0;
+    font-size: 23px;
+}
+
+h1, p {
+        font-size: 17px;
+}
+
+.images {
+     padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.socials h2, .socials p,
+.talents h2, .talents p,
+.portfolioheader h2, .portfolioheader p, 
+.services h2, .services p {
+     color: #000000;
+     text-align: center;
+     font-size: 20px;
+}
+
+.socials h1, .talents h1, .portfolioheader h1, .services h1 {
+     text-align: center;
+     color: #74C69D;
+}
+
+.socials p, .talents p, .portfolioheader p, .services p {
+    text-align: center;
+    font-size: 20px; 
+}
+
+.linebreak {
+     display: inline-block;
+     margin-top: 8px;
+     margin-bottom: 50px;
+}
+
+.socials a, .team a {
+     color: #FFFFFF;
+    background-color: #000000;
+    margin: 50px auto;
+}
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 1440px) {
+  h1, h2, p {
+    font-size: 25px
+  }
+}

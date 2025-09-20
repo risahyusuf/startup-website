@@ -1,0 +1,75 @@
+.Frame-1 h2, .Frame-1 p {
+    color: #000000;
+}
+
+@media (min-width: 768px) {
+   .frame-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   padding: 0 50px;
+   }
+
+   .images {
+    width: 400px;
+   }
+
+   .frame1-text p {
+    font-size: 15px;
+    width: 350px;
+}
+
+.frame1-text h2 {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.frame1-text a {
+        margin-top: 30px;
+}
+}
+
+@media (min-width: 1024px) {
+    .Frame-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+   padding: 0 50px;
+    }
+
+    .images {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .frame-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.images {
+    width: 600px;
+}
+    .frame1-text {
+        margin-top: 120px;
+}
+
+.frame1-text p {
+    font-size: 22px;
+}
+
+.frame1-text h2 {
+        max-width: 350px;
+    font-size: 35px;
+}
+
+.frame1-text a {
+        margin-top: 30px;
+}
+}
