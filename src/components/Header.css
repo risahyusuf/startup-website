@@ -42,10 +42,13 @@ header {
 }
 
 @media (min-width: 1024px) {
+    header {
+        justify-items: center;
+    }
+    
 .hero-image img {
     padding-top: 100px;
     width: 500px;
-    margin-left: 100px;
 }
 }
 
