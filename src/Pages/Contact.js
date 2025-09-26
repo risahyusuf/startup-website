@@ -41,6 +41,8 @@ initial={{ opacity: 0, x: -40 }}
          <span className="linebreak">adipisicing elit.</span>
          </motion.p>
 
+      <div className="contact-content">
+
 <motion.div
           className="contact-map"
           initial={{ opacity: 0, x: 50 }}
@@ -58,7 +60,6 @@ initial={{ opacity: 0, x: -40 }}
           ></iframe>
         </motion.div>
 
-      <div className="contact-content">
         <motion.form
           onSubmit={handleSubmit}
           className="contact-form"
@@ -93,7 +94,7 @@ initial={{ opacity: 0, x: -40 }}
           />
           <motion.button 
           whileHover={{ scale: 1.1 }} className="submit-button" type="submit">Submit</motion.button>
-        </motion.form>
+        </motion.form>  
       </div>
     </div>
     </section>
